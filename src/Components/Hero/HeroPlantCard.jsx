@@ -1,5 +1,5 @@
 import React from "react";
-import heroCardImage from '../../assets/images/heroCardImage.png'
+import HeroCardImage from '../../assets/images/HeroCardImage.png'
 import Button from "../Common/Button";
 
 const HeroPlantCard = () => {
@@ -7,7 +7,7 @@ const HeroPlantCard = () => {
     <div className="md:relative md:mr-10 max-w-90 relative bottom-10 md:max-h-110 md:mt-20 rounded-[50px] border border-white/40 backdrop-blur-sm bg-white/5 flex flex-col items-center pb-6">
       
       {/* Plant Image */}
-      <img src={heroCardImage} alt={name} className="max-w-full max-h-80 md:relative relative bottom-15"  />
+      <img src={HeroCardImage} alt={name} className="max-w-full max-h-80 md:relative relative bottom-15"  />
 
       {/* Content */}
       <div className="md:-mt-15 -mt-15 w-full px-6">
